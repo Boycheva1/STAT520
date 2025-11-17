@@ -20,7 +20,7 @@ BBB<-function(n,p,alpha,beta)
   # plot, using the aesthetics argument 'colour'
   ggplot(data = df2, aes(x = x, y = value, colour = variable)) + geom_line() + geom_vline(xintercept=p_hat)
 
- 
+ Print"hello"
 }
 
 n<-1
